@@ -6,13 +6,12 @@ Este repositório contém todos os scripts SQL utilizados na criação e manipul
 
 scripts/
 
-├── 01_create_tables.sql      → Criação das tabelas
-├── 02_insert_data.sql        → Inserção de dados iniciais
-├── 03_updates.sql            → Comandos UPDATE com condições
-└── 04_deletes.sql            → Comandos DELETE com segurança e FKs
+01_create_tables.sql      
+02_insert_data.sql        
+03_updates.sql            
+04_deletes.sql            
 
 ecnologias Utilizadas
-
 SQLite
 
 Como Executar o Projeto
@@ -53,4 +52,5 @@ Todos os relacionamentos são feitos através de chaves primárias e chaves estr
 👨‍💻 Autor
 
 Nome: Carlos Henrique dos santos vianna
+
 
