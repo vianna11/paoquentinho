@@ -2,7 +2,10 @@
 
 Este repositório contém todos os scripts SQL utilizados na criação e manipulação do banco de dados da Padaria Pão Quente, desenvolvidos como trabalho acadêmico.
 
+
+
 scripts/
+
 ├── 01_create_tables.sql      → Criação das tabelas
 ├── 02_insert_data.sql        → Inserção de dados iniciais
 ├── 03_updates.sql            → Comandos UPDATE com condições
@@ -50,3 +53,4 @@ Todos os relacionamentos são feitos através de chaves primárias e chaves estr
 👨‍💻 Autor
 
 Nome: Carlos Henrique dos santos vianna
+
