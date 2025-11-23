@@ -1,56 +1,106 @@
- Sistema de Banco de Dados – Padaria Pão Quente
+📌 Sistema de Banco de Dados – Padaria Pão Quente
 
-Este repositório contém todos os scripts SQL utilizados na criação e manipulação do banco de dados da Padaria Pão Quente, desenvolvidos como trabalho acadêmico.
+Este repositório contém todos os scripts SQL desenvolvidos para o trabalho da disciplina de Banco de Dados.
+Inclui criação das tabelas, inserção de dados, atualizações, exclusões e consultas, além de instruções de execução.
 
+📁 Estrutura do Repositório
+📦 padaria_pao/
+ ┣ 📜 create_tables.sql
+ ┣ 📜 insert_data.sql
+ ┣ 📜 updates.sql
+ ┣ 📜 deletes.sql
+ ┗ 📜 README.md
 
+🛠 Tecnologias Utilizadas
 
-scripts/
-
-01_create_tables.sql      
-02_insert_data.sql        
-03_updates.sql            
-04_deletes.sql            
-
-ecnologias Utilizadas
 SQLite
 
-Como Executar o Projeto
+DB Browser for SQLite (opcional)
 
-1. Clone o repositório
-git clone https://github.com/vianna11/paoquentinho
+Scripts desenvolvidos em SQL padrão
 
-2. Abra seu SGBD
+🧱 1. Criação das Tabelas
 
-3. Execute os scripts na seguinte ordem:
+O arquivo create_tables.sql contém todos os comandos CREATE TABLE, incluindo:
 
-01_create_tables.sql
+cliente
 
-02_insert_data.sql
+endereco
 
-03_updates.sql
+funcionario
 
-04_deletes.sql
+fornecedor
 
-Descrição das Tabelas
+produto
 
-cliente – informações básicas dos clientes
+pedido
 
-funcionario – dados dos funcionários (CPF, função etc.)
+pagamento
 
-fornecedor – fornecedores de itens e insumos
+item_pedido
 
-produto – produtos da padaria ligados a fornecedores
+Cada tabela inclui chave primária, estrangeira e restrições.
 
-pedido – pedidos realizados pelos clientes
+📥 2. Inserção de Dados
 
-itempedido – itens pertencentes a cada pedido
+O arquivo insert_data.sql inclui:
 
-pagamento – formas e valores de pagamento
+Clientes
 
-Todos os relacionamentos são feitos através de chaves primárias e chaves estrangeiras
+Funcionários
 
-👨‍💻 Autor
+Fornecedores
 
-Nome: Carlos Henrique dos santos vianna
+Produtos
 
+Pedidos
 
+Pagamentos
+
+Tudo pronto para popular o banco de dados.
+
+✏️ 3. Atualizações (UPDATE)
+
+O arquivo updates.sql inclui no mínimo 3 exemplos, como:
+
+Atualizar a função de um funcionário
+
+Alterar nome de fornecedor
+
+Atualizar status de um pedido
+
+🗑️ 4. Exclusões (DELETE)
+
+O arquivo deletes.sql contém no mínimo 3 comandos DELETE seguros com WHERE, como:
+
+Remover cliente por endereço
+
+Remover fornecedor por CNPJ
+
+Remover pedidos cancelados
+
+▶️ Como Executar
+
+Instale SQLite ou use o DB Browser for SQLite
+
+Abra o arquivo create_tables.sql e execute tudo
+
+Depois execute:
+
+insert_data.sql
+
+updates.sql
+
+deletes.sql
+
+Execute as consultas conforme solicitado no seu trabalho
+
+🔗 Link Público do Repositório
+
+📍 Adicione aqui o link do seu GitHub:
+(https://github.com/vianna11/paoquentinho)
+
+👤 Autor
+
+Carlos Henrique Dos Santps Vianna
+📚 Trabalho acadêmico – Banco de Dados
